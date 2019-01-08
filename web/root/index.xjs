@@ -222,20 +222,20 @@
 
 		<script src="./js/offcanvas.js"></script>
 
-	<script>
-		$(document).ready(
-			function () {
-				$('a.dropdown-toggle').on(
-					"click", function (e) {
-						$(this).next('ul').toggle();
-						$(this).next('div').toggle();
-						e.stopPropagation();
-						e.preventDefault();
-					}
-				);
-			}
-		);
-	</script>
+    	<script>
+    		$(document).ready(
+    			function () {
+    				$('a.dropdown-toggle').on(
+    					"click", function (e) {
+    						$(this).next('ul').toggle();
+    						$(this).next('div').toggle();
+    						e.stopPropagation();
+    						e.preventDefault();
+    					}
+    				);
+    			}
+    		);
+    	</script>
 
 	</body>
 
